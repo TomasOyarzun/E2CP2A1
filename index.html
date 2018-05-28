@@ -7,61 +7,75 @@
 			clear: both;
 		}
 		.one{
-			background-image:url(images/bg.jpeg);
-			background-repeat: round;
 			position: absolute;
+			background-image: url(images/bg.jpeg);
+			background-repeat: round;
 			width: 90%;
-			height: 425px;
-			left:5%;
-			color: white;
+			height: 400px;
+			left: 5%;
+			color: grey;
 		}
 		.one ul{
 			list-style-type: none;
 		}
 		.one li{
-			color: grey;
 			position: relative;
-			float:left;
+			float: left;
 			margin-left: 50px;
-			text-align: right;
-			left: 870px;
-			margin-top: 10px;
+			left: 900px;
 		}
 		.one img{
-			right: 600px;
 			position: relative;
-			width: 125px;
+			width: 100px;
+			right: 600px;
 		}
 		.one p{
+			position: relative;
+			top: 20px;
 			font-size: 40px;
-			text-align: center;
-			margin-top: 100px;
+			text-align: center;	
+			color: white;
 		}
 		#boton1{
-			bottom: 10px;
+			float: left;
 			position: relative;
-			left: 42%;
+			left: 43%;
+			top:10px;
 			background-color: blue;
 			width: 7%;
-			height: 50px;
-			float: left;
+			height: 45px;
+			color: white;
 			text-align: center;
-			border-radius: 10%;
+			border-radius: 7%;
 		}
 		#boton2{
-			bottom: 10px;
+			float: left;
+			background-color: lightgreen;
 			position: relative;
 			left: 44%;
-			background-color: lightgreen;
+			top:10px;
 			width: 7%;
-			height: 50px;
-			float: left;
+			height: 45px;
+			color:white;
 			text-align: center;
-			border-radius: 10%;
+			border-radius: 7%;
 		}
 		#end{
-			text-align: center;
 			font-size: 15px;
+		}
+		.two{
+			left: 5%;
+			width: 90%;
+			height: 500px;
+			color: black;
+			position: absolute;
+			top:450px;
+			text-align: center;
+		}
+		.two img{
+			position: relative;
+			width: 600px;
+			top: 42px;
 		}
 	</style>
 	<title></title>
@@ -69,22 +83,31 @@
 <body>
 	<div class="one">
 		<ul>
-		    <li><img src="images/latam_logo.png" alt="Logo Desafio Latam"></li>
+		    <li><img src="images/latam_logo.png" alt="Logo Latam" id="latam_logo"></li>
 		    <li>Equipo</li>
 		    <li>Blog</li>
 		    <li>Contacto</li>
 		</ul>
-		<div class="clear">
-		<p>COMIENZA UNA NUEVA VIDA Y<br> ÚNETE AL MUNDO<br> TECNOLÓGICO</p>
+		<div class="clear"></div>
+		<p>
+			COMIENZA UNA NUEVA VIDA Y<br> ÚNETE AL MUNDO<br> TECONLÓGICO
+		</p>
 		<div id="boton1"><br>Comienza acá!</div>
 		<div id="boton2"><br>Más Info</div>
+		<div class="clear"></div>
 		<p id="end">
-			Hay una escasez gigante de desarroladores en el mundo y más<br>
-			aún en Latinoamérica, se necesitan más
-			desarroladores y Tú puede ser uno!
+			Hay una escasez gigante de desarroladores en el mundo y más aún en Latinoamérica, se necesitas más<br>
+			desarroladores y Tú puedes ser uno!
 		</p>
 	</div>
-	<div></div>
+	<div class="two">
+		<h2>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMERICA</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ut enim ad <br> commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		</p>
+		<img src="images/bg22.jpeg">
+	</div>
 	<div></div>
 	<div></div>
 	<div></div>
