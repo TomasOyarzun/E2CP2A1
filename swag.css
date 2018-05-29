@@ -1,0 +1,163 @@
+body{
+	margin:0px;
+}
+.clear{
+	clear: both;
+}
+.one{
+	position: absolute;
+	background-image: url(images/bg.jpeg);
+	background-repeat: round;
+	width: 100%;
+	height: 400px;
+	color: grey;
+}
+.one ul{
+	list-style-type: none;
+}
+.one li{
+	position: relative;
+	float: left;
+	margin-left: 50px;
+	left: 900px;
+}
+.one img{
+	position: relative;
+	width: 100px;
+	right: 600px;
+}
+.one p{
+	position: relative;
+	top: 20px;
+	font-size: 40px;
+	text-align: center;	
+	color: white;
+}
+#boton1{
+	float: left;
+	position: relative;
+	left: 43%;
+	top:10px;
+	background-color: blue;
+	width: 7%;
+	height: 45px;
+	color: white;
+	text-align: center;
+	border-radius: 7%;
+}
+#boton2{
+	float: left;
+	background-color: lightgreen;
+	position: relative;
+	left: 44%;
+	top: 10px;
+	width: 7%;
+	height: 45px;
+	color:white;
+	text-align: center;
+	border-radius: 7%;
+}
+#end{
+	font-size: 15px;
+}
+.two{
+	width: 100%;
+	height: 500px;
+	color: black;
+	position: absolute;
+	top:450px;
+	text-align: center;
+}
+.two img{
+	position: relative;
+	width: 600px;
+	top: 42px;
+}
+.three{
+	box-sizing: border-box;
+	background-color:#eeeeee;
+	width: 100%;
+	height: 250px;
+	color: black;
+	position: absolute;
+	top: 945px;
+	text-align: center;	
+}
+#boton3{
+	position: relative;
+	left: 47%;
+	background-color: blue;
+	width: 7%;
+	height: 45px;
+	color: white;
+	text-align: center;
+	border-radius: 7%;
+	top:-5px;
+}
+.four{
+	box-sizing: border-box;
+	background-color: white;
+	width: 100%;
+	height: 250px;
+	color: black;
+	position: absolute;
+	top: 1195px;
+	text-align: center;	
+}
+#ul_four_a{
+	text-align: left;
+	float: left;
+	position: relative;
+	list-style-type: none;
+	left: 25%;
+}
+#ul_four_b{
+	text-align: left;
+	float: left;
+	position: relative;
+	list-style-type: none;
+	left: 34%;
+}
+#textbox{
+	border-radius: 7px;
+	float: left;
+	border: ridge;
+	width: 50%;
+	height: 35px;
+	background-color: white;
+	color: grey;
+}
+#boton4{
+	border-radius: 7px;
+	position: relative;
+	left: 10px;
+	text-align: center;
+	float: left;
+	border: ridge;
+	width: 25%;
+	height: 35px;
+	background-color: white;
+	color: black;
+}
+.four span{
+	position: relative;
+	top:10px;
+}
+.four a{
+	position: relative;
+	right: 605px;
+	top:100px;
+	color: blue;
+}
+.five{
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	background-color: #222222;
+	top: 1400px;
+	color: white;
+}
+.five p{
+	padding:15px;
+	margin-left: 300px;
+}
